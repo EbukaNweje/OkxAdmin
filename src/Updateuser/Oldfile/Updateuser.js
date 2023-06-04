@@ -9,7 +9,7 @@ const UpdateWallet = ({Display}) => {
   const [last, setLast] = useState("")
   console.log(setLast);
 
-    const url = `https://premium-crypt.onrender.com/api/alluserdata`
+    const url = `https://preeminent-crypfield.onrender.com/api/alluserdata`
   
     useEffect(()=>{
       Axios.get(url)
@@ -155,12 +155,12 @@ const UpdateWallet = ({Display}) => {
             <span>${props.currentBalance}</span>
           </InputData>
 
-          {/* <InputData>
-            <label>Start up deposit: </label>
-            <input />
-            <button onClick={(e)=>upddatebtn(props._id,e)} title={"startUpDeposit"}>Update</button>
-            <span>${props.startUpDeposit}</span>
-          </InputData> */}
+          <InputData>
+            <label>Referral earnings: </label>
+            {/* <input /> */}
+            <button onClick={(e)=>upddatebtn(props._id,e)} title={"ref"}>Update</button>
+            <span>${props.ref}</span>
+          </InputData>
 
           {/* <InputData>
               <label>Total earned: </label>

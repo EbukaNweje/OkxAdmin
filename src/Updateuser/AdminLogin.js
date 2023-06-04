@@ -12,7 +12,7 @@ const AdminLogin = () => {
 
 
     const Loggin = () =>{
-    if(email !== "premiumcryptassets@gmail.com" || password !== "premiumcryptassetsadmin@2023"){
+    if(email !== "preeminentcrypfield@gmail.com" || password !== "909090aA"){
         Swal.fire({
             icon: 'error',
             title: 'Oops...',
